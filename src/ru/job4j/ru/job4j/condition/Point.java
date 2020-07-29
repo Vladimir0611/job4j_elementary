@@ -7,6 +7,7 @@ public class Point {
         double rsl = (rsl1-rsl2);
         rsl = Math.sqrt(rsl);
         return rsl;
+
     }
     public static void main(String[] args) {
         double result = Point.distance(0, 0, 2, 0);
