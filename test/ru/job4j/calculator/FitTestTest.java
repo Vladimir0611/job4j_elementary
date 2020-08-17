@@ -23,4 +23,5 @@ public class FitTestTest {
         double out = ru.job4j.Fit.womanWeight(height);
         Assert.assertEquals(expected, out, 0.01);
     }
+
 }
