@@ -7,12 +7,11 @@ public class CheckPrimeNumber {
         while (index <= number - 1) {
             if (number % index == 0) {
                 rsl = false;
-                index += 1;
-                break;
+break;
             } else {
                 rsl = true;
                 index += 1;
-                break;
+
             }
         }
         return rsl;
