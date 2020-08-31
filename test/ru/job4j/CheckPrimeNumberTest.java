@@ -9,13 +9,13 @@ public class CheckPrimeNumberTest {
 
     @Test
     public void when5() {
-        boolean rsl = CheckPrimeNumber.check(11);
+        boolean rsl = CheckPrimeNumber.check(5);
         assertThat(rsl, is(true));
     }
 
     @Test
     public void when4() {
-        boolean rsl = CheckPrimeNumber.check(4);
+        boolean rsl = CheckPrimeNumber.check(9);
         assertThat(rsl, is(false));
     }
 
