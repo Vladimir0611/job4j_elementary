@@ -13,8 +13,8 @@ public class Converter2 {
 
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(140);
-        double dollar = Converter.rubleToDollar(140);
+        int dollar = Converter.rubleToDollar(180);
         System.out.println("140 rubles are " + euro + " euro.");
-        System.out.println("140 rubles are " + dollar + " dollars.");
+        System.out.println("180 rubles are " + dollar + " dollars.");
     }
 }
