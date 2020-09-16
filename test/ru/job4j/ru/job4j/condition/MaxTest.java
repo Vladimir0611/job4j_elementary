@@ -21,5 +21,19 @@ public class MaxTest {
         int result = Max.max(3, 3);
         assertThat(result, is(3));
     }
+
+    @Test
+    public void max() {
+    }
+
+    @Test
+    public void testMax() {
+    }
+
+    @Test
+    public void testMax1() {
+        int result = Max.max(3, 3, 7, 5);
+        assertThat(result, is(7));
+    }
 }
 
